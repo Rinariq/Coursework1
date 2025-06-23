@@ -77,7 +77,6 @@ public class Employee {
         this.wage += wage / 100 * increment;
     }
 
-
     public String toShotString() {
         return "ID: " + id + "  ФИО СОТРУДНИКА: " + nameEmployee + " " + patronymicEmployee + " " + surnameEmployee + "  ЗАРПЛАТА: " + wage + " руб.";
     }

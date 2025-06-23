@@ -42,7 +42,6 @@ public class Main {
         findEmployeeWithWageBelow(wageBelowAndMore);
         System.out.println("\nСотрудники с ЗП больше " + wageBelowAndMore + " руб:");
         findEmployeeWithWageMore(wageBelowAndMore);
-
     }
 
     private static void print() {
